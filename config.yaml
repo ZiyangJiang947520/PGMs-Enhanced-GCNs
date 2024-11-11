@@ -1,0 +1,16 @@
+name: GCN
+norm: true
+loop: true
+
+params:
+  cora:
+    arch_name: GCN
+    architecture:
+      num_layers: 2
+      hidden_channels: 32
+      dropout: 0.1
+      batch_norm: false
+      residual: false
+    optim: adam
+    lr: 0.01
+    epochs: 200
